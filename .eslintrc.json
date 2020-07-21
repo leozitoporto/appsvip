@@ -34,6 +34,7 @@
         "allowExpressions": true
       }
     ],
+    "react/jsx-one-expression-per-line": "off",
     "no-unused-expressions": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
