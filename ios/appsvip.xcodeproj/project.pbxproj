@@ -61,12 +61,12 @@
 		50DCDAE7F164AE0734055614 /* Pods-appsvip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsvip.debug.xcconfig"; path = "Target Support Files/Pods-appsvip/Pods-appsvip.debug.xcconfig"; sourceTree = "<group>"; };
 		67A2F5416A3A07BBB27AD25A /* Pods-appsvip-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsvip-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-appsvip-tvOSTests/Pods-appsvip-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		783CF5AB0BA1635A49935530 /* Pods-appsvip-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsvip-tvOS.release.xcconfig"; path = "Target Support Files/Pods-appsvip-tvOS/Pods-appsvip-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		8AFC8DC4DDE44FDB94D2CAC4 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		8AFC8DC4DDE44FDB94D2CAC4 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		9FCC518FE7BACEC60E7879B6 /* libPods-appsvip-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsvip-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1058DFB6824DE06DBF63C2A /* libPods-appsvip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsvip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF265ED3146C6B42E7C7F49D /* libPods-appsvip-appsvipTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsvip-appsvipTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6608D4E0DD799779D40835 /* libPods-appsvip-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsvip-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D40198512A1E48C3A9E50D93 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Medium.ttf"; path = "../assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
+		D40198512A1E48C3A9E50D93 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Medium.ttf"; path = "../assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
 		ED1FF1FFFE15E4F0803EEFAC /* Pods-appsvip-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsvip-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-appsvip-tvOS/Pods-appsvip-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -165,7 +165,6 @@
 				67A2F5416A3A07BBB27AD25A /* Pods-appsvip-tvOSTests.debug.xcconfig */,
 				083CE1DC18A896C6DC4900FB /* Pods-appsvip-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,7 +175,6 @@
 				8AFC8DC4DDE44FDB94D2CAC4 /* RobotoSlab-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -309,6 +307,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 9JK286V7FR;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -745,6 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JK286V7FR;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -772,6 +772,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JK286V7FR;
 				INFOPLIST_FILE = appsvip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
