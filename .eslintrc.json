@@ -34,13 +34,13 @@
         "allowExpressions": true
       }
     ],
-    "react/jsx-one-expression-per-line": "off",
-    "no-unused-expressions": "off",
     "prettier/prettier": "error",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-expressions": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -50,6 +50,7 @@
       }
     ],
     "import/prefer-default-export": "off",
+    "@typescript-eslint/camelcase": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
