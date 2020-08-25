@@ -76,7 +76,7 @@ const CreateAppointment: React.FC = () => {
       .get(`providers/${selectedProvider}/day-availability`, {
         params: {
           year: selectedDate.getFullYear(),
-          month: selectedDate.getMonth(),
+          month: selectedDate.getMonth() + 1,
           day: selectedDate.getDate(),
         },
       })
